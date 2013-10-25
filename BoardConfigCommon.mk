@@ -84,7 +84,8 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_RECOVERY_SWIPE := true
 
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+TARGET_KERNEL_CONFIG := gummy_kernel_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
 
 BOARD_SEPOLICY_DIRS += \
 	device/asus/grouper/sepolicy
