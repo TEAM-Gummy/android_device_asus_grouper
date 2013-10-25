@@ -22,4 +22,7 @@
     <!-- LED Flash -->
     <bool name="has_led_flash">false</bool>
 
+    <!-- Whether the carousel widget animation preference should be hidden. -->
+    <bool name="config_show_carousel" translatable="false">true</bool>
+
 </resources>
