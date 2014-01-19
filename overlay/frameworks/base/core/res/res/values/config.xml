@@ -56,15 +56,10 @@
          USB interfaces.  If the device doesn't want to support tething over USB this should
          be empty.  An example would be "usb.*" -->
     <string-array translatable="false" name="config_tether_usb_regexs">
-        <item>"rndis0"</item>
     </string-array>
 
     <!-- Array of allowable ConnectivityManager network types for tethering -->
     <integer-array translatable="false" name="config_tether_upstream_types">
-        <item>0</item>
-        <item>1</item>
-        <item>5</item>
-        <item>7</item>
     </integer-array>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
@@ -226,9 +221,6 @@
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
-    <!-- If this is true, the screen will fade off. -->
-    <bool name="config_animateScreenLights">false</bool>
-
     <!-- Boolean indicating if current platform need do one-time bluetooth address
          re-validation -->
     <bool name="config_bluetooth_address_validation">true</bool>
@@ -241,14 +233,5 @@
 
     <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">6</integer>
-
-    <!-- Control the behavior when the user long presses the home button.
-            0 - Nothing
-            1 - Recent apps dialog
-            2 - Recent apps view in SystemUI
-         This needs to match the constants in
-         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
-    -->
-    <integer name="config_longPressOnHomeBehavior">0</integer>
 
 </resources>
