@@ -249,4 +249,7 @@
     <!-- Enable translucent lockscreen-->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 
+    <!-- enabling WifiDisplay(Miracast Source)-->
+    <bool name="config_enableWifiDisplay">true</bool>
+
 </resources>
